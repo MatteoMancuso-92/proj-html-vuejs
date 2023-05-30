@@ -23,6 +23,15 @@
 </template>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
- 
-</style>
+header  {
+  background-image: url(../../public/images/background-pattern-wavify.png);
+  background-color:245, 241, 237; 
+
+}
+ </style>

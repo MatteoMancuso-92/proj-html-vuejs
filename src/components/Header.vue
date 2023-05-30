@@ -16,12 +16,16 @@ import Jumbo from "./Jumbo.vue"
         <div class="container">
             <Navbar/>
             <Jumbo/>
+            
         </div>
     </header>
     
 </template>
 
 <style scoped>
+  header {
+    height: 300px;
+  }
  
 
 </style>

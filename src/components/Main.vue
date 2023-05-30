@@ -1,15 +1,36 @@
 <script>
-export default {
+  import SectionOne from "./SectionOne.vue"
+  import SectionTwo from "./SectionTwo.vue"
+  import SectionThree from "./SectionThree.vue"
+  import SectionFour from "./SectionFour.vue"
+  import SectionFive from "./SectionFive.vue"
+  import SectionSix from "./SectionSix.vue"
+  import SectionSeven from "./SectionSeven.vue"
 
-}
+  export default {
+      components: {
+        SectionOne,
+        SectionTwo,
+        SectionThree,
+        SectionFour,
+        SectionFive,
+        SectionSix,
+        SectionSeven,
+      }
+    }
 </script>
 
 <template>
-  <h2>Main prova</h2>
+    <SectionOne/>
+    <SectionTwo/>
+    <SectionThree/>
+    <SectionFour/>
+    <SectionFive/>
+    <SectionSix/>
+    <SectionSeven/>
 </template>
 
-
-
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
+
