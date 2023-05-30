@@ -1,22 +1,28 @@
-<script setup>
-import Header from './components/Header.vue';
-import Navbar from './components/Navbar.vue';
-import Jumbo from './components/Jumbo.vue';
-import Main from './components/Main.vue';
-import Footer from './components/Footer.vue';
+<script>
+
+  import Header from "./components/Header.vue"
+  import Main from "./components/Main.vue"
+  import Footer from "./components/Footer.vue"
+
+  export default {
+      components: {
+        Header,
+        Main,
+        Footer,
+      }
+    }
 
 </script>
- <Header />
- <Navbar />
- <Jumbo />
- <Main />
- <Footer />
+
 <template>
-  
+
+  <Header/>
+  <Main/>
+  <Footer/>
+
 </template>
 
-<style lang="scss">
-    @import "bootstrap/scss/bootstrap";
+<style>
 
-
+ 
 </style>
