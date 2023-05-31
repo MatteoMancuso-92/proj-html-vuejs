@@ -29,5 +29,10 @@
   box-sizing: border-box;
 }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 
  </style>
