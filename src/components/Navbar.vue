@@ -1,17 +1,13 @@
 <script>
 export default {}
-   
-
 </script>
-
 <template>
-
-    <nav>
+   <div class="container">
+   <nav>
       <div class="logo">
-        <img src="../../public/images/dark-logo.png" alt="">
+        <img src="../assets/images/dark-logo.png" alt="">
       </div>
-
-      <div class="topnav">
+      <div class="center-bar">
         <a href="">Home</a>
         <a href="">Pages</a>
         <a href="">Courses</a>
@@ -19,42 +15,42 @@ export default {}
         <a href="">Blog</a>
         <a href="">Shop</a>
       </div>
-
       <div class="icon">
-        <font-awesome-icon :icon="['fab', 'facebook']" />
-
+        <img src="src\assets\icons\facebook.png" alt="">
+        <img src="src\assets\icons\instagram.png" alt="">
+        <img src="src\assets\icons\linkedin.png" alt="">
+        <img src="src\assets\icons\twitter.png" alt="">
       </div>
     </nav>
-    
+  </div>
 </template>
 
 <style lang="scss" scoped>
-
-.navbar {
+nav {
   display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  .logo {
+    img {
+      height: 18px;}
+    }
+  .center-bar {
+    a{
+      color:black;
+      margin: 0 10px;
+    }
+  }
+  .icon {
+    img{
+      margin: 0 6px;
+      height: 18px;
+    }
+  }
 }
 
-img {
-  height: 18px;
-}
 
- .topnav { overflow: hidden;}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-    color: violet;
-}
 
 </style>
 

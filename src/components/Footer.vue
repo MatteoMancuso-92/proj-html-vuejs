@@ -4,7 +4,7 @@
 
 <template>
 
-    <div class="container">
+    <div class="container-fluid">
         <div>Address</div>
         <ul>
           <li>382 NE 191st St # 87394 Miami,Fl 33179-3899</li>
@@ -30,7 +30,7 @@
 </template>
 
 <style lang="scss" scoped>
-.container {
+.container-fluid {
     display: flex;
     background-color: black;
     color: white;

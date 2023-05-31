@@ -11,21 +11,22 @@ import Jumbo from "./Jumbo.vue"
 </script>
 
 <template>
-
     <header>
-        <div class="container">
             <Navbar/>
-            <Jumbo/>
-            
-        </div>
+            <!--<Jumbo/>-->
     </header>
-    
 </template>
 
 <style scoped>
-  header {
+  header  {
     height: 300px;
-  }
+    background-image: url('./src/assets/images/background-pattern-wavify.png');
+    background-color:245, 241, 237; 
+}
+
+img {
+  
+}
  
 
 </style>

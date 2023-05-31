@@ -15,11 +15,11 @@
 </script>
 
 <template>
-
+<div class="container-fluid">
   <Header/>
   <Main/>
   <Footer/>
-
+</div>
 </template>
 
 <style>
@@ -29,9 +29,5 @@
   box-sizing: border-box;
 }
 
-header  {
-  background-image: url(../../public/images/background-pattern-wavify.png);
-  background-color:245, 241, 237; 
 
-}
  </style>

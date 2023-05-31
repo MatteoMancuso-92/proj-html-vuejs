@@ -4,7 +4,8 @@
 
 <template>
 
-    <div class="contain">
+    <div class="container">
+        
         <h1>Peace On Earth A Wonderful Wish But No Way</h1>
         <p>
             <span>
@@ -23,6 +24,8 @@
 </template>
 
 <style lang="scss" scoped>
-    
+    .jumbo {
+        display: flex;
+    }
 
 </style>
