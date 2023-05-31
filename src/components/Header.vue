@@ -13,13 +13,12 @@ import Jumbo from "./Jumbo.vue"
 <template>
     <header>
             <Navbar/>
-            <!--<Jumbo/>-->
+            <Jumbo/>
     </header>
 </template>
 
 <style scoped>
   header  {
-    height: 300px;
     background-image: url('./src/assets/images/background-pattern-wavify.png');
     background-color:245, 241, 237; 
 }
