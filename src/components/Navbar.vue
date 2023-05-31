@@ -1,9 +1,23 @@
 <script>
 import Social from "/src/components/Social.vue"
+
   export default {
       components: {
         Social,
-      }
+      },
+      data() {
+    //let gianni = [uno,due,tre]
+    return {
+      menus:[
+        {title: 'Home', href: 'Home.html'},
+        {title: 'Pages', href:'Pages.html'},
+        {title: 'Courses', href: 'Courses.html'},
+        {title: 'Features', href: 'Features.html'},
+        {title: 'Blog', href:'Blog.html'},
+        {title: 'Shop', href: 'Shop.html'},
+      ],
+    };
+  }
     }
 </script>
 <template>
@@ -12,14 +26,14 @@ import Social from "/src/components/Social.vue"
       <div class="logo">
         <img src="../assets/images/dark-logo.png" alt="">
       </div>
+
       <div class="center-bar">
-        <a href="">Home</a>
-        <a href="">Pages</a>
-        <a href="">Courses</a>
-        <a href="">Features</a>
-        <a href="">Blog</a>
-        <a href="">Shop</a>
+        <a v-for="(menu,i) in menus" :key="i" :href="menu.href">
+          {{ menu.title }}
+        </a>
       </div>
+
+
       <Social />
     </nav>
   </div>
@@ -35,6 +49,7 @@ nav {
       height: 18px;}
     }
   .center-bar {
+    list-style-type: none;
     a{
       color:black;
       margin: 0 10px;

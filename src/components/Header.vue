@@ -1,18 +1,19 @@
 <script>
 import Navbar from "./Navbar.vue"
 import Jumbo from "./Jumbo.vue"
+export default {
+  components: {
+    Navbar,
+    Jumbo
+  },
 
-  export default {
-      components: {
-        Navbar,
-        Jumbo,
-      }
-    }
+};
 </script>
 
 <template>
+
     <header>
-            <Navbar/>
+            <Navbar />
             <Jumbo/>
     </header>
 </template>
