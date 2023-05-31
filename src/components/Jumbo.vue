@@ -49,10 +49,14 @@
  .hero-image {
     display: flex;
     justify-content: center;
+    background-image: url('src/assets/images/home-movation-shape-face-300x267.png');
+        background-repeat: no-repeat;
+        background-position: 60% 120%;
+        background-size:50%;
     img {
+        display:block;
        width: 50%;
-       
-
+       position:relative;
     }
  }
 </style>

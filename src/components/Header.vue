@@ -20,7 +20,7 @@ import Jumbo from "./Jumbo.vue"
 <style scoped>
   header  {
     background-image: url('./src/assets/images/background-pattern-wavify.png');
-    background-color:245, 241, 237; 
+    
 }
 
 img {
